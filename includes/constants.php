@@ -36,7 +36,7 @@ define('kNJSCurrentEnv', kNJSEnvDevelopment);
 define('kNJSErrorReporting', 0); // E_ALL, E_ERROR, 0 (None)
 
 // You can obtain a GUID here https://guidgenerator.com/
-define('kNJSAuthToken', '_CHANGE_ME_WITH_A_GUID_');
+define('kNJSAuthToken', 'lnVZMtMUPkCE2SDmk5jhqg==');
 
 define('kNJSKeyFilename', 'private');
 define('kNJSKeyExtension', 'key');

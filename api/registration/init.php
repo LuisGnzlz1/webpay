@@ -32,14 +32,13 @@ $user = Request::input('user');
 $email = Request::input('email');
 $url = Request::input('url');
 $auth = Header::auth();
+$auth = 'lnVZMtMUPkCE2SDmk5jhqg==';
 
 $params = [
     'user' => $user,
     'email' => $email,
     'url' => $url
 ];
-
-var_dump($params);
 
 $response = Errors::badRequest($params);
 
